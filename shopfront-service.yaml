@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: djshopfront
-        image: 10.0.0.3:8081/microsvc-dev/shopfront:15
+        image: 10.0.0.3:8081/microsvc-dev/shopfront:16
         ports:
         - containerPort: 8010
         livenessProbe:
