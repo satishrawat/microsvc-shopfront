@@ -6,12 +6,12 @@ metadata:
   labels:
     app: shopfront
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: shopfront
   ports:
   - protocol: TCP
-    port: 8010
+    port: 80
     name: http
 
 ---
