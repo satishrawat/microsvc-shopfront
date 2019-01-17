@@ -21,7 +21,7 @@ kind: ReplicationController
 metadata:
   name: shopfront
 spec:
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
