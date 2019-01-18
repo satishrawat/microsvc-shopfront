@@ -13,6 +13,7 @@ spec:
     app: shopfront
   type: LoadBalancer
 
+
 ---
 apiVersion: extensions/v1beta1
 kind: Deployment
